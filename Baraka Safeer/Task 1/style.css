@@ -52,9 +52,9 @@ body {
   cursor: pointer;
 }
 
-#menu-toggle {
+/*#menu-toggle {
   display: none;
-}
+}*/
 
 .sidebar {
   position: fixed;
