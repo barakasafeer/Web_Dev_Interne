@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -33,7 +33,8 @@
       align-items: center;
       padding: 60px 80px;
       background-color: #f9fafc;
-    }
+      margin-bottom: 80px;
+       }
     .hero-text {
       max-width: 50%;
     }
@@ -107,12 +108,18 @@
   align-items: center;
   background-color: #f6f6f6; /* optional for visibility */
   color: #ffffff;
-  margin: 60px auto;
-  padding: 40px ;
+  /*margin: 60px auto;*/
+   margin: 60px auto 0 auto;
+  padding: 40px 80px;
   max-width: 82%;
   background-color: #f4f0ff;
   border-radius: 24px;
-
+  position: absolute;
+  z-index: 1;
+  bottom: -10px;
+  left: 110px;
+  width:70%;
+margin-bottom: -120px;
 }
 
 .cta h2 {
@@ -137,14 +144,22 @@
     footer {
       background-color: #0f172a;
       color: #cbd5e1;
-      padding: 50px 80px;
+      padding: 30px 80px; /* Increased vertical padding */
+      min-height: 200px;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      position: relative;
+      z-index: 0;
+      
     }
     footer div {
       margin: 10px 0;
       
+    }
+   
+    .footer-col {
+      padding-top: 180px;
     }
     .footer-col h4 {
       color: #94a3b8;
@@ -208,7 +223,8 @@
   </section>
 
   <footer>
-    <div>
+   
+    <div class="footer-col">
       <img src="d:\Web_Dev_Interne\Baraka Safeer\Task 2\images\devkit logo pic.png" alt="logo" width="50" />
     </div>
     <div class="footer-col">
@@ -231,6 +247,7 @@
         <button>Subscribe</button>
       </div>
     </div>
+   
   </footer>
 </body>
 </html>
